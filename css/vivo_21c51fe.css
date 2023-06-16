@@ -2125,7 +2125,6 @@ body {
 }
 
 .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-name {
-    height: 32px;
     margin-bottom: 12px
 }
 
@@ -2138,7 +2137,8 @@ body {
 .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-title {
     font-size: 28px;
     line-height: 32px;
-    max-width: 450px
+    max-width: 450px;
+    padding: 15px;
 }
 
 .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-title.text-dir-rtl span {
@@ -2148,7 +2148,8 @@ body {
 .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-btn {
     margin-top: 50px;
     font-size: 20px;
-    pointer-events: auto
+    pointer-events: auto;
+    padding: 15px;
 }
 
 .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-btn a {
@@ -2448,7 +2449,7 @@ body {
     }
 
     .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-name {
-        height: 1.8vw;
+        height: 6.8vw;
         margin-bottom: .5vw
     }
 
@@ -2541,12 +2542,14 @@ body {
     .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-title {
         font-size: 4.44444vw;
         line-height: 1.2;
-        max-width: 67.77778vw
+        max-width: 67.77778vw;
+        padding: 7px;
     }
 
     .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-btn {
         margin-top: 5.55556vw;
-        max-width: 67.77778vw
+        max-width: 67.77778vw;
+        padding: 7px;
     }
 
     .bannner-container .banner-mid-wraper .banner-mid-box .banner-mid-content .mid-btn a,
@@ -2877,7 +2880,7 @@ body {
     box-sizing: border-box;
     padding: 0 44px;
     width: 100%;
-    bottom: 44px;
+    bottom: 15px;
     font-size: 18px;
     text-align: left;
     opacity: 0;
